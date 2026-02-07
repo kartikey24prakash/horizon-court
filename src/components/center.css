@@ -1,0 +1,16 @@
+.herocenter{
+    height: 89.5vh;
+    width: 96vw;
+    /* margin-block: 2rem; */
+    /* background-color: red; */
+  
+    background-image: url("https://unityholidays.co.uk/app/uploads/bis-images/1565/monitor-teaching-padel-class-2024-10-14-22-21-30-utc-scaled-1200x800-f70_56.jpg");
+    margin-top: 0.5rem;
+    background-size: cover;
+
+    background-position: center ;
+
+
+    /* scale: 0.9; */
+    border-radius: 1rem;
+}

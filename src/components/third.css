@@ -1,0 +1,60 @@
+.third{
+    width: 96vw;
+    height: 60vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.th{
+    height: 90%;
+    width: 32%;
+    border-radius: 3rem;
+    
+}
+
+.third1{
+    
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.third2{
+    background-color: crimson;
+}
+.third3{
+    background-color: orange;
+}
+
+.third1 button{
+    padding-inline:0.3rem ;
+    padding-block: 0.2rem;
+    border-radius: 4rem;
+    
+    
+}
+.serr{
+    margin-top: 2rem;
+}
+.serr button{
+    opacity: 0.8;
+    padding-inline:0.5rem ;
+    padding-block: 0.3rem;
+    background-color: #fff;
+    border: 1px solid rgb(192, 185, 185) ;
+    
+    font-size: 1rem;
+}
+.third1 p{
+    font-size: 1.8rem;
+    margin-top: 3rem;
+}
+
+.exp{
+    margin-top: 3rem;
+
+}
