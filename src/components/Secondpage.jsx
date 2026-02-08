@@ -1,6 +1,7 @@
 import React from 'react'
 import './second.css'
 import LevelRow from "./Dots";
+import Transparentbutton from "./Transparentbutton";
 
 const Secondpage = () => {
   return (
@@ -27,6 +28,10 @@ const Secondpage = () => {
 
           </div>
           <div className="smmid sm">
+            <div className="smmid_trans">
+              <Transparentbutton name="Private & Group Lessons"/>
+              
+            </div>
 
           </div>
           <div className="smright sm">

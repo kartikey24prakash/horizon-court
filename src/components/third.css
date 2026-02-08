@@ -24,10 +24,32 @@
 
 }
 .third2{
-    background-color: crimson;
+    background-image: url(https://img.freepik.com/free-photo/female-tennis-player-tennis-court_1303-23218.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
 }
-.third3{
-    background-color: orange;
+
+
+.up{
+    height: 55%;
+    width: 100%;
+    border-radius: 3rem;
+    /* background-color: black;
+     */
+    background-image: url(https://img.freepik.com/free-photo/close-up-tennis-balls-ground_23-2148218719.jpg?w=360);
+    background-size: cover;
+
+
+}
+
+.down{
+    margin-top: 1rem;
+}
+.down p{
+    /* padding-left: 2rem; */
+    font-weight:400;
+    font-size: 1.6rem;
+    display: inline-block;
+    max-width: 18rem;
 }
 
 .third1 button{
@@ -50,11 +72,59 @@
     font-size: 1rem;
 }
 .third1 p{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-top: 3rem;
 }
 
 .exp{
     margin-top: 3rem;
+    
 
+}
+.exp button{
+    padding-inline: 0.8rem;
+    color: white;
+    background-color: #0D1A2D;
+    padding-block: 0.6rem;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.arrowbuttom{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.3rem;
+
+}
+.arrow{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 1px solid rgb(211, 202, 202);
+    /* font-weight: 400;
+     */
+     opacity: 0.9;
+}
+
+.upbutton{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.third2_button{
+    margin-top: 1rem;   
+    margin-left: 1rem;
+}
+.up p{
+    color: #ffffff;
+    position: relative;
+    left: 1rem;
+    top: 9rem;
+    font-size: 1.4rem;
+    font-weight: 600;
 }

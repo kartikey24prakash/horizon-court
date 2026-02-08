@@ -26,9 +26,22 @@
     padding-left: 2rem;
     padding-top: 0.5rem;
 }
+
+.stleft button{
+    border: none;
+    padding-inline:0.6rem ;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 4rem;
+    padding-block:0.4rem ;
+    opacity: 0.9;
+    font-size: 0.9rem;
+}
+
 .stright{
     width: 50%;
-    font-size: 1.8rem;
+    opacity: 0.8;
+    font-size: 1.5rem;
     padding-left: 2rem;
     padding-top: 0.5rem;
 }
@@ -105,11 +118,14 @@
 
 .smmid{
   
-    background-image: url(https://images.unsplash.com/photo-1480179087180-d9f0ec044897?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJ1bm5pbmd8ZW58MHx8MHx8fDA%3D);
-
+    background-image: url(https://plus.unsplash.com/premium_photo-1670002272491-3d3f8f5c00a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFkbWludG9ufGVufDB8fDB8fHww);
     
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: -1; */
 }
 
 
@@ -163,3 +179,4 @@
 .num h1{
     font-weight: 600;
 }
+

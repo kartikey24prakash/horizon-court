@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="contact">Contacts</div>
       </div>
       <div className="right">
-        <div className="book"><button>Book Now</button></div>
+        <div className="book"><button>Book Now <i class="ri-arrow-right-up-long-line"></i></button></div>
       </div>
     </div>
   )
